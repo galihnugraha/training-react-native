@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "testBatch9RN",
+    "slug": "testBatch9RN",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/JosefinSans-Bold.ttf",
+            "./src/assets/fonts/JosefinSans-BoldItalic.ttf",
+            "./src/assets/fonts/JosefinSans-Extralight.ttf",
+            "./src/assets/fonts/JosefinSans-ExtralightItalic.ttf",
+            "./src/assets/fonts/JosefinSans-Italic.ttf",
+            "./src/assets/fonts/JosefinSans-Light.ttf",
+            "./src/assets/fonts/JosefinSans-LightItalic.ttf",
+            "./src/assets/fonts/JosefinSans-Medium.ttf",
+            "./src/assets/fonts/JosefinSans-MediumItalic.ttf",
+            "./src/assets/fonts/JosefinSans-Regular.ttf",
+            "./src/assets/fonts/JosefinSans-SemiBold.ttf",
+            "./src/assets/fonts/JosefinSans-SemiBoldItalic.ttf",
+            "./src/assets/fonts/JosefinSans-Thin.ttf",
+            "./src/assets/fonts/JosefinSans-ThinItalic.ttf"
+          ]
+        }
+      ],
+      "expo-router"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
